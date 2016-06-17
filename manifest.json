@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Build Board",
+  "description": "A build dashboard",
+  "version": "1.0",
+
+  "permissions": [
+    "https://secure.flickr.com/"
+  ],
+  "browser_action": {
+    "default_icon": "app/img/icon.png",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
